@@ -1,3 +1,7 @@
-data/
+# Ignore all data except the structure (no large files)
+data/*
+!data/track_a/
+!data/track_a/**
+
 *.ipynb_checkpoints/
 __pycache__/
